@@ -40,7 +40,7 @@
 
 
 
-## __Server 의 종류__
+## __Server 의 연결구조 종류__
 
 
 ### Mesh Server(Map 방식)

@@ -68,3 +68,16 @@
 - 실시간 스트리밍에 적합
 - 장점: P2P 보다는 느리지만 실시간성이 유지됨. 상대적으로 클라이언트 부하가 적음
 - 단점: 상대적으로 서버비용이 높음. 그리고 대규모로 연결하는 경우 여전히 클라이언트 부하가 존재함
+
+
+## WebRTC의 대표적인 API
+-----------------------
+- getUserMidea: 미디어장치에 접근하여 캡처하기 위한 API
+- getDisplayMedia: 로컬 장치의 디스플레이에 접근하기 위한 API
+- MedaiRecoder: 오디오, 비디오를 녹화하기 위한 API
+- RTCPeerConnection: 피어간에 스트림을 송수신하기 위한 연결 설정 API
+- RTCDataChannel: 피어간 일반 임의 데이터(ex. txt, file, data)를 송수신하기 위한 API
+- getStats: PeerConnection의 상태 정보에 접근하기 위한 API
+
+
+예제모음: https://webrtc.github.io/samples/

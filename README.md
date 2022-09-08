@@ -72,9 +72,9 @@
 
 ## WebRTC의 대표적인 API
 -----------------------
-- getUserMidea: 미디어장치에 접근하여 캡처하기 위한 API
+- getUserMedia: 미디어장치에 접근하여 캡처하기 위한 API
 - getDisplayMedia: 로컬 장치의 디스플레이에 접근하기 위한 API
-- MedaiRecoder: 오디오, 비디오를 녹화하기 위한 API
+- MediaRecoder: 오디오, 비디오를 녹화하기 위한 API
 - RTCPeerConnection: 피어간에 스트림을 송수신하기 위한 연결 설정 API
 - RTCDataChannel: 피어간 일반 임의 데이터(ex. txt, file, data)를 송수신하기 위한 API
 - getStats: PeerConnection의 상태 정보에 접근하기 위한 API

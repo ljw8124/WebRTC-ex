@@ -38,7 +38,6 @@
 - 컨텐츠에 대한 메타데이터를 설명한다 -> 미디어 자체라기 보다는 메타데이터라고 봄
 
 <br></br>
-<br></br>
 
 ## __Server 의 연결구조 종류__
 
@@ -84,7 +83,6 @@
 
 예제모음: https://webrtc.github.io/samples/
 
-<br></br>
 <br></br>
 
 ### Kurento Media Server

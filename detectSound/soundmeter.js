@@ -20,9 +20,6 @@ function SoundMeter(context)
         
         for(let i = 0; i < input.length; ++i) {
             sum += input[i] * input[i];
-            if(Math.abs(input[i]) > 0.99) {
-                console.error('Detect');
-            }
         }
         thisObj.detectedVolume = Math.sqrt(sum / input.length);
     }
@@ -31,6 +28,7 @@ function SoundMeter(context)
 
 SoundMeter.prototype.connectToSource = function(stream, callback) {
     console.log('SoundMeter connecting');
+    console.error(stream);
     try {
         this.mic = this.context.createMediaStreamSource(stream);
         this.mic.connect(this.script);

@@ -38,6 +38,7 @@ function handleSuccess(stream)
         }
         
         meterRefresh = setInterval(() => {
+            //soundmeter에서는 for를 너무 많이 돌아서 여기서 감지하는 것이 좋음
             console.warn(soundMeter.detectedVolume.toFixed(2));
         }, 200);
         

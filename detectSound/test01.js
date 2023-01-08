@@ -28,6 +28,8 @@ function handleSuccess(stream)
     
     window.stream = stream;
     
+    // window에 저장하지 않고 div나 각 video에 soundMeter를 속성값으로 지정하는 경우
+    // clear, stop, close 할 때 잘 비워주어야 함
     const soundMeter = window.soundMeter = new SoundMeter(window.audioContext);
     
     soundMeter.connectToSource(stream, function(e) {
